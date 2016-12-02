@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("DOM Loaded");
 
- var tick = setInterval(clock, 10);
+ var tick = setInterval(clock, 1000);
  //setInterval is a given function (clock is a anoymous function,
  //1000 is thetime it will increments) setInterval is a function that runs a parameter forever
   // console.log("seconds");
